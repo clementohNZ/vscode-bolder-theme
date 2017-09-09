@@ -2,7 +2,7 @@
     "name": "theme",
     "displayName": "Bolder",
     "description": "Code that pops out at you.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "clementohnz",
     "repository": {
         "url": "https://github.com/clemnz/vscode-bolder-theme"
@@ -14,10 +14,12 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [{
-            "label": "Bolder",
-            "uiTheme": "vs-dark",
-            "path": "./themes/Bolder-color-theme.json"
-        }]
+        "themes": [
+            {
+                "label": "Bolder",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Bolder-color-theme.json"
+            }
+        ]
     }
 }
